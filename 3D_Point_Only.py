@@ -19,7 +19,7 @@ from mpl_toolkits.mplot3d import Axes3D
 count = 0
 data = {'X': [], 'Y': [], 'Z': []}
 
-path = 'F:\\3-柏泉铁矿\\柏泉铁矿强度折减有限元计算\\'
+path = 'F:\\'
 file = 'points.txt'
 
 In_po = File(path, file)

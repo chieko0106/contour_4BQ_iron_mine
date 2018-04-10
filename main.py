@@ -8,7 +8,7 @@ from readGDN import F
 from XYZ_3Dmodel import File
 
 
-path = 'F:\\3-柏泉铁矿\\柏泉铁矿强度折减有限元计算\\pline\\'
+path = 'F:\\pline\\'
 count = 0
 data = {'X':[],'Y':[],'Z':[]}
 for z0 in range(550,720,5):
@@ -22,7 +22,7 @@ for z0 in range(550,720,5):
         data['Z'].append(In.data['Z'][i])
         count = count + 1
 
-path = 'F:\\3-柏泉铁矿\\柏泉铁矿强度折减有限元计算\\'
+path = 'F:\\'
 file = 'points.txt'
 
 In_po = File(path,file)

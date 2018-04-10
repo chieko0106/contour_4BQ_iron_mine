@@ -1,6 +1,6 @@
 # -*- coding: UTF-8 -*-
 '''
-对于简单边坡，生成结构化网格拓扑的程序
+对于简单边坡，生成 二维 结构化网格拓扑的程序
 因为是针对边坡，这里预设不存在90度坡，因此用在其它地方的时候可能会有问题
 输入的x，y必须是按照从坡顶到坡脚的顺序，并且对应排列
 '''
@@ -19,7 +19,7 @@ def Read(path,file):
         count += 1
     return data, count
 
-path = 'F:\\3-柏泉铁矿\\柏泉铁矿强度折减有限元计算\\'
+path = 'F:\\'
 file = 'slice4.txt'
 data,count = Read(path,file)
 
